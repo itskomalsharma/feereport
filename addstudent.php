@@ -1,4 +1,5 @@
 <?php
+$alert=null;
 include 'accountantmenu.php';
 $a=mysqli_connect('localhost','root','','stu_fee_mgmt');
 if(isset($_POST['submit']))
